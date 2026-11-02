@@ -2,14 +2,14 @@ const express = require('express')
 
 const app = express           
 
-const userSchema = new expresschema({
+const userSchema = new express schema({
     name: String,
     username: String,
     email: String,
     password: String
 });
 
-const post.userSchema =new express userSchema({
+const post.user Schema =new express user Schema({
     new password:
     username : 
 
@@ -41,11 +41,34 @@ app.post("/login", async (req, res) => {
 
            res.send("login succusessfull");
 
-    (app.listen(3000().=>{
-    console.log("Server running on port3000"),
+           app.listen(3000() => {
+    console.log("Server running on port http:/localhost:3000"),
 });
 
 
+app.post("profile/" (req,res) => {
+    const (Name,email) =res.body
+ 
+    res.send({
+
+        message: "Profile created successfully",
+        Name:Name
+        email:gmail
+      });
 
 
-     
+app.post("profile delete/"(req,res))=> {
+    const (name,email)=res.body
+
+    res.send({
+        message: "profile delete successfully",
+        Name:Name
+        gmail:gamil
+    });
+
+    app.post("qualification/"(req,res))
+    if res.status (BBA[] , BCA[], BCOM[])
+
+    res.send({
+
+    })
